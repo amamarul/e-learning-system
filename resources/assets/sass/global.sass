@@ -1,0 +1,67 @@
+.bg
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+
+.height-100
+    height: 100%
+
+.div-center
+    float: none
+    display: table
+    margin: 0 auto
+
+.col
+    padding-left: $column-gutter-width
+    padding-right: $column-gutter-width
+
+.table
+    display: table
+    height: 100%
+    .table-cell
+        display: table-cell
+        vertical-align: middle
+
+.card
+    background-color: $white
+    box-shadow: 0px 1px 1px #ccc
+    border-radius: 3px
+
+.user-name
+    text-transform: capitalize
+
+ul
+    margin: 0 0 0 $grid-gutter-width / 2
+    padding: 0
+
+.col-centered
+    display: table
+    margin: 0 auto
+
+.plus-atr
+    &::after
+        content: ''
+        background-image: url('/img/arrow-attr.svg')
+        width: 100%
+        height: 40px
+        position: relative
+        float: left
+        background-size: contain
+        background-repeat: no-repeat
+        margin-top: -15px
+        margin-left: 35px
+
+::-webkit-scrollbar
+    width: 12px
+
+::-webkit-scrollbar-track
+    background-color: #CACBD0
+    border-radius: 15px
+
+::-webkit-scrollbar
+    height: 10px
+
+::-webkit-scrollbar-thumb
+    background-color: #5D627D
+    border-radius: 15px
+

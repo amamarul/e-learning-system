@@ -1,0 +1,108 @@
+.container
+    .register, .login, .reset
+        margin-top: 60px
+
+.admin
+    .categories
+        margin-top: 50px
+        .card
+            margin-bottom: 25px
+            padding: 50px 75px
+        .btn
+            margin-right: 10px
+            margin-top: 50px
+        .btn-danger
+            position: absolute
+            top: 0
+            right: 0
+            margin-top: 0
+            margin-right: 0
+        ul
+            li
+                position: relative
+                margin: 25px 0
+                ul
+                    li
+                        margin: 5px 0
+.course-edit
+    .alert
+        margin: 0
+    .side-bar
+        height: 1000px
+        background-color: white
+        padding: 0
+        padding-right: 50px
+        padding-top: 50px
+        &::before
+            content: ''
+            position: absolute
+            background-color: white
+            right: 100%
+            top: 0
+            width: 200%
+            height: 100%
+        h1
+            color: $primary-color
+            margin-top: 5px
+        p
+            margin: 25px 0
+        .back
+            font-size: 12px
+            color: $secondary-color
+            font-weight: bolder
+            display: block
+            margin-top: 25px
+    .course-questions
+        width: 100%
+        position: relative
+        float: left
+        padding: 80px 0 50px 50px
+        .btn
+            margin: 25px 0
+        h2
+            margin: 0 0 25px 0
+            padding: 0
+        ul
+            list-style: none
+            margin: 0
+            li
+                width: 100%
+                position: relative
+                float: left
+                margin: 5px 0 0
+                padding: 30px 20px
+                box-shadow: 0px 1px 1px #ccc
+                background-color: white
+                ol
+                    width: 100%
+                    position: relative
+                    float: left
+                    margin: 0px 0 30px 0
+                    padding: 0 0 0 $column-gutter / 2
+                    li
+                        box-shadow: none
+                        border: 0
+                        padding: 0
+                &:hover
+                    background-color: rgba(255, 255, 255, 0.8)
+                    input[type='checkbox']
+                        display: block
+                input[type='checkbox']
+                    position: absolute
+                    top: 20px
+                    right: 25px
+                    cursor: pointer
+                    z-index: 999
+                    display: none
+                h6
+                    margin: 0
+                    font-size: 13px
+                    font-weight: normal
+                    line-height: 28px
+                span
+                    margin-left: -100px
+                .question-title, p
+                    color: $secondary-color
+                    font-size: 16px
+                .question-title
+                    font-weight: bolder

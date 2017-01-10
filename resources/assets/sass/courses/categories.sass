@@ -1,0 +1,68 @@
+.categories
+    h1
+        color: $primary-color
+        margin:  25px 55px 0 0
+        padding:  35px 15px
+    .category-list
+        width: 100%
+        padding: 50px 0
+        position: fixed
+        h4
+            margin-bottom: 40px
+        h5
+            margin-bottom: 20px
+        ul
+            list-style: none
+            margin: 0
+            li
+                margin: 15px 0
+                label
+                    font-weight: normal
+                    cursor: pointer
+                input[type='checkbox']
+                    margin-right: 15px
+                .btn
+                    margin-top: 25px
+                    padding: 7px 25px
+                a
+                    font-weight: normal
+                    font-size: 14px
+                    font-family: $open-sans
+    .courses
+        position: relative
+        float: left
+        padding:  0 0 50px 0
+        .selected-category
+            .course-list
+                position: relative
+                ul
+                    list-style: none
+                    margin: 0
+                    li.course-item
+                        width: 100%
+                        position: relative
+                        float: left
+                        .card
+                            margin: 15px 0 0
+                            padding: 20px 30px 20px 30px
+                            h6
+                                font-style: italic
+                            h4
+                                margin-top: 0
+                                &.line-attr
+                                    &::before
+                                        width: 3px
+                                        height: 60px
+                                        left: -3px
+                                        top: 45px
+                            p
+                                font-weight: normal
+                            span
+                                font-size: 16px
+                                font-weight: 600
+                                font-family: $open-sans
+                                color: $black
+                                position: relative
+                                float: right
+                        a:hover
+                            text-decoration: none
